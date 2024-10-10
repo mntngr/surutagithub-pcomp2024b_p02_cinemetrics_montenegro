@@ -36,6 +36,26 @@ body {
   text-align: justify;
 }
 
+.contenedor {
+  display: flex; /* Hace que los elementos hijos (párrafos) se coloquen en fila */
+  justify-content: space-between;  /* Distribuye los párrafos con espacio entre ellos */
+  width: 100%; /* Ajusta el ancho del contenedor al 80% del ancho de la ventana */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  background-color: #FF522A; /* Color de fondo del contenedor */
+  padding: 20px; /* Espacio interior del contenedor */
+  box-sizing: border-box; /* Asegura que padding se incluya dentro del ancho total */
+
+}
+
+#seccion4 {
+  width: 40%; /* Ajusta el ancho de cada párrafo al 45% del contenedor */
+  background-color: #FF522A;
+  padding: 10px;
+  box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+  text-align: justify;
+}
+
+
 header {
   background-color: #D8E4D6;
   color: #000000;
