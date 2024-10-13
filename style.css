@@ -25,13 +25,19 @@ body {
 }
 
 #seccion2 {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   text-align: justify;
 }
 
+#autor {
+  width: 47%;
+  float: right;
+  margin-right: 10px;
+}
+
 #seccion3 {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   text-align: justify;
 }
