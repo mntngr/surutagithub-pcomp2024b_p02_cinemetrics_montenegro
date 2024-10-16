@@ -57,20 +57,42 @@ body {
   margin-right: 10px;
 }
 
+
 .seccion-b3 {
   display: flex;
   align-items: center; /* Centra el contenido verticalmente */
+  justify-content: center;
   height: 100vh; /* 100% de la altura de la pantalla */
   width: 100vw;  /* 100% del ancho de la pantalla */
   background-color: #FF522A; 
 }
 
 #seccion3 {
-  width: 50%;
+  width: 80%;
   padding: 20px;
   text-align: justify;
 }
 
+.parrafos-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.p1, .p2 {
+  flex: 1;
+  width: 45%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.p1 {
+  margin-left: 20px;
+}
+
+.p2{
+  margin-right: 20px;
+}
 .seccion-b4 {
   display: flex;
   align-items: center; /* Centra el contenido verticalmente */
