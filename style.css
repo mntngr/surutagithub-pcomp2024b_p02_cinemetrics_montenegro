@@ -57,7 +57,6 @@ body {
   margin-right: 10px;
 }
 
-
 .seccion-b3 {
   display: flex;
   align-items: center; /* Centra el contenido verticalmente */
@@ -91,7 +90,7 @@ body {
 }
 
 .p2{
-  margin-right: 20px;
+  margin-right: 20pz;
 }
 .seccion-b4 {
   display: flex;
@@ -134,6 +133,20 @@ body {
 .contenedor2 {
   display: grid;
   grid-column: 50% 50%;
+}
+
+.seccion-b7 {
+  display: flex;
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 100vh; /* 100% de la altura de la pantalla */
+  width: 100vw;  /* 100% del ancho de la pantalla */
+  background-color: #958AAA;
+}
+
+#seccion7 {
+  padding: 20px;
+  text-align: justify;
+  width: 50%
 }
 
 .seccion-b6 {
