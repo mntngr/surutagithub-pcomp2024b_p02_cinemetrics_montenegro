@@ -105,6 +105,23 @@ body {
   text-align: justify;
 }
 
+.p1-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.p1 {
+  flex: 1;
+}
+
+.img-right {
+  margin-left: 15px;
+  width: 400px;
+  height: auto;
+  align-self: flex-start;
+  margin-right: 50px
+}
 .seccion-b5 {
   display: flex;
   align-items: center; /* Centra el contenido verticalmente */
