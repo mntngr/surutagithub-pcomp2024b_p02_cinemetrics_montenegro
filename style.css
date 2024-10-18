@@ -9,6 +9,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: neue;
+  src: 
+       url(PPNEUEMACHINA-INKTRAPREGULAR.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: neue;
+}
+
+header {
+  font-family: neue;
+}
+
 body {
   font-family: Montserrat, sans-serif;
   background-color: #D8E4D6;
@@ -55,6 +71,7 @@ body {
   width: 35%;
   float: right;
   margin-right: 10px;
+  margin-top: -280px;
 }
 
 .seccion-b3 {
@@ -141,6 +158,18 @@ body {
   text-align: justify;
   width: 50%
 }
+
+.gif-animado {
+  max-width: 200px; 
+  height: auto; /* Mantiene la proporción original */
+  float: right;
+  margin-right: 10px;
+}
+
+video {
+  float: right;
+}
+
 
 .contenedor {
   display: grid;
