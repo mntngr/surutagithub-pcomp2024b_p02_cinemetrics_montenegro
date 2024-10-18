@@ -140,7 +140,7 @@ body {
   align-items: center; /* Centra el contenido verticalmente */
   height: 100vh; /* 100% de la altura de la pantalla */
   width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #958AAA;
+  background-color: #8E8101;
 }
 
 #seccion7 {
@@ -154,7 +154,7 @@ body {
   align-items: center; /* Centra el contenido verticalmente */
   height: 100vh; /* 100% de la altura de la pantalla */
   width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #8E8101; 
+  background-color: #FF522A; 
 }
 
 #seccion6 {
@@ -175,6 +175,7 @@ header {
 nav {
   background-color: #000000;
   padding: 20px;
+  width: 100%;
 }
 
 nav ul {
@@ -200,6 +201,7 @@ nav ul li a:hover {
   text-decoration: underline;
   color: #D8E4D6;
 }
+
 
 section {
   padding: 20px;
