@@ -82,23 +82,32 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   align-items: center; 
   height: 100vh; 
   width: 100vw;  
+  margin-top: -122px;
+ 
 }
 /* CONTENIDO */
 #autor {
   padding: 20px;
   text-align: justify;
   background-color: #D8E4D6;
-  border-radius: 8px;
+  border-radius: 0px;
+}
+.sub-autor {
+  background-color: #FF522A; /* Fondo de color amarillo */
+  color: #000000; /* Color del texto */
+  padding: 0.5em; /* Espaciado interno */
+  margin-left: 20px;
 }
 
 .p-a {
-  width: 50%
+  width: 50%;
+  margin-left: 20px;
 }
 
 #frederic-img {
   width: 35%;
   float: right;
-  margin-right: 10px;
+  margin-right: 50px;
   margin-top: -280px;
 }
 
@@ -112,20 +121,29 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   justify-content: center;
   height: 100vh; 
   width: 100vw; 
+  margin-top: -230px;
 }
+
 /* CONTENIDO */
 #proyecto {
-  width: 80%;
+  width: 90%;
   padding: 20px;
   text-align: justify;
-  background-color: #FF522A;
-  border-radius: 8px;
+  background-color: #D8E4D6;
+  border-radius: 0px;
+}
+
+.sub-descine {
+  background-color: #FF522A; /* Fondo de color amarillo */
+  color: #000000; /* Color del texto */
+  padding: 0.5em; /* Espaciado interno */
+  margin-left: 20px;
 }
 
 .parrafos-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  margin-left: -20px;
 }
 
 .p1, .p2 {
@@ -143,6 +161,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   margin-right: 20pz;
 }
 
+
  /* SECCION : LEV MANOVICH */
 
  /* FONDO */
@@ -159,114 +178,48 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin-top: -70px;
+}
+
+.sub-lev {
+  margin-left: 20px;
 }
 
 .columnas {
-  display: flex;
-  justify-content: space-between;
   gap: 20px;
-
 }
 
-.p1-container, .p2-container, .p3-container {
+.p1-container,   {
   flex-basis: 0%;
-  margin: 0 10px;
   text-align: justify;
-  max-width: 60%;
+  max-width: 70%;
   flex-grow: 1;
+  /* NO HE PODIDO ALINEAR ESTE PARRAFO*/
+}
 
-
+.p2-container, {
+  flex-basis: 0%;
+  text-align: justify;
+  max-width: 70%;
+  flex-grow: 1;
 }
 
 .img-right {
-  width: 400px;
+  width: 480px;
   height: auto;
-  margin-top: 100px;
-  margin-left: 50px;
-}
-
-
-
-/* SECCION : WES ANDERSON - DIRECTOR - VISUALIZACIÓN */
-.vis-base {
+  margin-top: -380px;
+  margin-left: 680px;
   display: flex;
-  align-items: center; 
-  height: 100vh; 
-  width: 100vw;  
-  background-color: #958AAA; 
 }
 
-#visualizacion {
-  padding: 20px;
+.p3-container {
+  flex-basis: 0%;
   text-align: justify;
-  width: 50%
-}
-
-#vis-caract {
-  padding: 20px;
-  text-align: justify;
-  width: 100%
-
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.flex-container p {
-  flex: 1;
-  margin: 10px;
-  box-sizing: border-box;
-}
-
-.gif-container {
-  text-align: center;
-  margin-top: 500px;
-  margin-right: 100px;
-  align-items: center;
-  clear: both;
-}
-
-.gif-animado {
-  max-width: 200px; 
-  height: auto; /* Mantiene la proporción original */
-  display: inline-block;
-  margin-right: 100px;
-  margin-top: 500px;
-}
-
-.img-anderson {
-  float: right; /* Hace que la imagen flote a la derecha */
-  margin-left: 20px; /* Espacio entre la imagen y el texto */
-  margin-right: 10px;
-  margin-top: 0px; /* Espacio superior opcional */
-  max-width: 500px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
-  height: auto; /* Mantiene la proporción original */
-  
+  max-width: 70%;
+  margin-left: 20px;  
 }
 
 
-.video {
-  float: center;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  margin-right: 40%;
-  margin-left: 40%;
-
-}
-
-
-.contenedor {
-  display: grid;
-  grid-column: 50% 50%;
-}
-
-.contenedor2 {
-  display: grid;
-  grid-column: 50% 50%;
-}
 
 /* SECCION : COMPARATIVA GENERO TERROR */
 
@@ -282,7 +235,8 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 #terror {
   padding: 20px;
   text-align: justify;
-  width: 50%
+  width: 50%;
+  margin-top: 200px;
 }
 
 /* SECCION : CONCLUSIÓN */
