@@ -111,34 +111,44 @@ body {
 }
 .seccion-b4 {
   display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
+  align-items: flex-start; /* Centra el contenido verticalmente */
+  height: auto; /* 100% de la altura de la pantalla */
   width: 100vw;  /* 100% del ancho de la pantalla */
 }
 
 #seccion4 {
-  width: 50%;
+  width: 100%;
   padding: 20px;
-  text-align: justify;
-}
-
-.p1-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.p1 {
-  flex: 1;
+.columnas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.p1-container, .p2-container, .p3-container {
+  flex-basis: 0%;
+  margin: 0 10px;
+  text-align: justify;
+  max-width: 60%;
+  flex-grow: 1;
+
+
 }
 
 .img-right {
-  margin-left: 15px;
   width: 400px;
   height: auto;
-  align-self: flex-start;
-  margin-right: 50px
+  margin-top: 80%;
+  margin-left: 20%;
+
+
 }
+
 .seccion-b5 {
   display: flex;
   align-items: center; /* Centra el contenido verticalmente */
@@ -157,11 +167,13 @@ body {
   padding: 20px;
   text-align: justify;
   width: 100%
+
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
+
 }
 
 .flex-container p {
@@ -186,8 +198,25 @@ body {
   margin-top: 500px;
 }
 
-video {
-  float: right;
+.img-anderson {
+  float: right; /* Hace que la imagen flote a la derecha */
+  margin-left: 20px; /* Espacio entre la imagen y el texto */
+  margin-right: 10px;
+  margin-top: 0px; /* Espacio superior opcional */
+  max-width: 500px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  height: auto; /* Mantiene la proporción original */
+  
+}
+
+  
+
+.video {
+  float: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-right: 40%;
+  margin-left: 40%;
+
 }
 
 
