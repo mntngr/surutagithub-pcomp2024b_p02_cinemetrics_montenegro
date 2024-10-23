@@ -156,14 +156,34 @@ body {
 #seccion5-2 {
   padding: 20px;
   text-align: justify;
-  width: 50%
+  width: 100%
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container p {
+  flex: 1;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.gif-container {
+  text-align: center;
+  margin-top: 500px;
+  margin-right: 100px;
+  align-items: center;
+  clear: both;
 }
 
 .gif-animado {
   max-width: 200px; 
   height: auto; /* Mantiene la proporción original */
-  float: right;
-  margin-right: 10px;
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 500px;
 }
 
 video {
