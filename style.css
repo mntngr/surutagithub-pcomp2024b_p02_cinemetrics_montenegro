@@ -2,6 +2,7 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
+/* FUENTE CONTENIDO-PARRAFOS */
 .montserrat-<Montserrat> {
   font-family: Montserrat, sans-serif;
   font-optical-sizing: auto;
@@ -9,6 +10,7 @@
   font-style: normal;
 }
 
+/* FUENTE TÍTULOS */
 @font-face {
   font-family: neue;
   src: 
@@ -17,76 +19,107 @@
   font-style: normal;
 }
 
+/* FUENTE PARA TITULOS SECCIONES */
 h2 {
   font-family: neue;
 }
 
-header {
-  font-family: neue;
-}
-
+/* FUENTE PARA CONTENIDO PARRAFOS */
 body {
   font-family: Montserrat, sans-serif;
-  background-color: #D8E4D6;
+  background-color: #000000;
   color: #000000;
   margin: 0;
   padding: 0;
 }
 
+/* LAS SECCIONES DE LA WEB ESTARÁN DIVIDIDAS POR "SECCION : XXXXXXX", "FONDO" Y "CONTENIDO"
 
-.seccion-b1 {
-  display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #958AAA; 
+todos los que tienen xxx-base son : FONDO, DIMENSIONES DE LA PANTALLA Y COLOR PARA LA SECCIÓN 
+
+LOS ARCHIVOS EXTRA DEBEN TENER LAS TRES PRIMERAS LETRAS DEL NOMBRE DE LA SECCION SEGUIDO DE UN - QUE 
+DIGA QUE ES EL ELEMENTO (ej: abs-fondogif ,, que sería el gif que iría en el fondo del abstract)
+
+pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
+*/
+
+
+
+/* SECCION :; INTRODUCCIÓN WEB */
+
+/* FONDO */
+/* FONDO */
+.abs-base {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    width: 100vw;  
+    position: relative; /* Posicionamiento relativo para los elementos hijos */
+    background-image: url("gif/abs-fondo.gif"); 
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    background-position: center; /* Centra el fondo */
+    background-repeat: no-repeat; /* Evita que se repita */
 }
 
-#seccion1 {
-  width: 50%;
+/* CONTENIDO */
+#abstract {
+    width: 50%; 
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px; /* bordes redondeadoss */
+    color: #D8E4D6;
+}
+
+
+ /* SECCION : FREDERIC - AUTOR PROYECTO */
+
+/* FONDO */
+.aut-base {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;  
+}
+/* CONTENIDO */
+#autor {
   padding: 20px;
   text-align: justify;
-  margin: 0 auto;
-
-}
-
-.seccion-b2 {
-  display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #8E8101; 
-}
-
-#seccion2 {
-  padding: 20px;
-  text-align: justify;
+  background-color: #D8E4D6;
+  border-radius: 8px;
 }
 
 .p-a {
   width: 50%
 }
 
-#autor {
+#frederic-img {
   width: 35%;
   float: right;
   margin-right: 10px;
   margin-top: -280px;
 }
 
-.seccion-b3 {
-  display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-content: center;
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #FF522A; 
-}
 
-#seccion3 {
+ /* SECCION : DESCRIPCIÓN PROYECTO CINEMETRICS */
+
+ /* FONDO */
+.pro-base {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh; 
+  width: 100vw; 
+}
+/* CONTENIDO */
+#proyecto {
   width: 80%;
   padding: 20px;
   text-align: justify;
+  background-color: #FF522A;
+  border-radius: 8px;
 }
 
 .parrafos-container {
@@ -109,14 +142,19 @@ body {
 .p2{
   margin-right: 20pz;
 }
-.seccion-b4 {
-  display: flex;
-  align-items: flex-start; /* Centra el contenido verticalmente */
-  height: auto; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-}
 
-#seccion4 {
+ /* SECCION : LEV MANOVICH */
+
+ /* FONDO */
+.pri-base {
+  display: flex;
+  align-items: flex-start; 
+  height: auto; 
+  width: 100vw;  
+  color: #D8E4D6;
+}
+/* CONTENIDO */
+#principios {
   width: 100%;
   padding: 20px;
   display: flex;
@@ -143,27 +181,28 @@ body {
 .img-right {
   width: 400px;
   height: auto;
-  margin-top: 80%;
-  margin-left: 20%;
-
-
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
-.seccion-b5 {
+
+
+/* SECCION : WES ANDERSON - DIRECTOR - VISUALIZACIÓN */
+.vis-base {
   display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;  
   background-color: #958AAA; 
 }
 
-#seccion5 {
+#visualizacion {
   padding: 20px;
   text-align: justify;
   width: 50%
 }
 
-#seccion5-2 {
+#vis-caract {
   padding: 20px;
   text-align: justify;
   width: 100%
@@ -208,7 +247,6 @@ body {
   
 }
 
-  
 
 .video {
   float: center;
@@ -230,29 +268,52 @@ body {
   grid-column: 50% 50%;
 }
 
-.seccion-b7 {
-  display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #8E8101;
-}
+/* SECCION : COMPARATIVA GENERO TERROR */
 
-#seccion7 {
+/* FONDO */
+.ter-base {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;  
+  background-color: #FF522A; 
+}
+/* CONTENIDO */
+#terror {
   padding: 20px;
   text-align: justify;
   width: 50%
 }
 
-.seccion-b6 {
+/* SECCION : CONCLUSIÓN */
+
+/* FONDO */
+.con-base {
   display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  height: 100vh; /* 100% de la altura de la pantalla */
-  width: 100vw;  /* 100% del ancho de la pantalla */
-  background-color: #FF522A; 
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;  
+  background-color: #8E8101;
+}
+/* CONTENIDO */
+#conclusion {
+  padding: 20px;
+  text-align: justify;
+  width: 50%
 }
 
-#seccion6 {
+/* SECCION : XXXX */
+
+/* FONDO */
+.bib-base {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;  
+  background-color: #FF522A; 
+}
+/* CONTENIDO */
+#bibliografia {
   padding: 20px;
   text-align: justify;
   width: 50%
@@ -261,14 +322,15 @@ body {
 
 
 header {
-  background-color: #D8E4D6;
-  color: #000000;
+  background-color: #000000;
+  color: #D8E4D6;
   padding: 20px;
   text-align: center;
+  font-family: neue;
 }
 
 nav {
-  background-color: #000000;
+  background-color: #D8E4D6;
   padding: 20px;
   width: 100%;
 }
@@ -277,24 +339,24 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: #D8E4D6;
+  color: #000000;
 }
 
 nav ul li {
   display: inline;
   margin-right: 10px;
-  color: #D8E4D6;
+  color: #000000;
 }
 
 nav ul li a {
-  color: #000000;
-  text-decoration: none;
   color: #D8E4D6;
+  text-decoration: none;
+  color: #000000;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: #D8E4D6;
+  color: #000000;
 }
 
 
