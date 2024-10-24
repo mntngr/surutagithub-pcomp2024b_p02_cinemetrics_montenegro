@@ -183,25 +183,28 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 
 .sub-lev {
   margin-left: 20px;
+ 
 }
 
 .columnas {
   gap: 20px;
+
 }
 
-.p1-container,   {
+.p1-container   {
   flex-basis: 0%;
   text-align: justify;
   max-width: 70%;
   flex-grow: 1;
-  /* NO HE PODIDO ALINEAR ESTE PARRAFO*/
+   /* NO HE PODIDO ALINEAR ESTE PARRAFO*/
 }
 
-.p2-container, {
+.p2-container {
   flex-basis: 0%;
   text-align: justify;
   max-width: 70%;
   flex-grow: 1;
+  
 }
 
 .img-right {
@@ -210,13 +213,15 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   margin-top: -380px;
   margin-left: 680px;
   display: flex;
+
 }
 
 .p3-container {
   flex-basis: 0%;
   text-align: justify;
   max-width: 70%;
-  margin-left: 20px;  
+  flex-grow: 1;
+  
 }
 
 
