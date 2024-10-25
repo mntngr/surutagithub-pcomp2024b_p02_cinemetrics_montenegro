@@ -107,7 +107,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   width: 35%;
   float: right;
   margin-right: 70px;
-  margin-top: -280px;
+  margin-top: -300px;
   border-radius: 30px;
 }
 
@@ -293,7 +293,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 #terror {
   padding: 20px;
   text-align: justify;
-  width: 80%;
+  width: 90%;
   margin-top: 200px;
 }
 
@@ -316,7 +316,9 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   display: flex;
   align-items: center; 
   height: 100vh; 
-  width: 100vw; 
+  width: 90vw; 
+  margin-top: -180px;
+  margin-left: 20px;
 }
 
 #ter-p2 {
@@ -327,7 +329,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 }
 
 #ter-p3 {
-  background-color: #D8E4D6;
+  background-color: #8E8101;
   padding: 2em; 
   margin-left: 20px;
   border-radius: 30px;
@@ -346,6 +348,9 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   align-items: center;
   height: 100vh; 
   width: 100vw; 
+  gap: 50px;
+  margin-left: 20px;
+  margin-top: -50px;
 }
 
 .ter-gen-gif {
@@ -355,27 +360,37 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   border-radius: 30px;
 }
 
-.ter-invasion-gif {
-  max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+.ter-body-gif {
+  max-width: 40%; /* Limita el ancho de la imagen a la mitad del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   margin-left: 20px; /* Espacio entre el párrafo y la imagen */
   border-radius: 30px;
 }
 
 .ter-birds-gif {
-  max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+  max-width: 40%; /* Limita el ancho de la imagen a la mitad del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   border-radius: 30px;
 }
 
-.ter-bruja-gif {
-    max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+/* FONDO */
+.ter-base4 {
+  display: flex;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw; 
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.ter-blair-gif {
+    max-width: 40%; /* Limita el ancho de la imagen a la mitad del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 30px;
 }
 
-.ter-resplandor-gif {
-    max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+.ter-shine-gif {
+    max-width: 40%; /* Limita el ancho de la imagen a la mitad del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 30px;
 }
@@ -387,9 +402,9 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 .con-base {
   display: flex;
   align-items: center; 
-  height: 100vh; 
+  height: 70vh; 
   width: 100vw;  
-  background-color: #D8E4D6;
+  background-color: #000000;
 }
 /* CONTENIDO */
 #conclusion {
@@ -397,6 +412,21 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   padding: 20px;
   text-align: justify;
   width: 50%;
+}
+
+.sub-con {
+  background-color: #FF522A; /* Fondo de color amarillo */
+  color: #000000; /* Color del texto */
+  padding: 0.5em; /* Espaciado interno */
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+#con-p1 {
+background-color: #958AAA;
+padding: 2em; 
+border-radius: 30px;
+margin-left: 20px;
 }
 
 /* SECCION : BIBLIOGRAFÍA */
