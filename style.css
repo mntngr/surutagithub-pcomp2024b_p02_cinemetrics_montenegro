@@ -1,7 +1,4 @@
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 /* FUENTE CONTENIDO-PARRAFOS */
 .montserrat-<Montserrat> {
   font-family: Montserrat, sans-serif;
@@ -69,7 +66,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
     text-align: justify;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px; /* bordes redondeadoss */
+    border-radius: 30px; /* bordes redondeadoss */
     color: #D8E4D6;
 }
 
@@ -82,33 +79,36 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   align-items: center; 
   height: 100vh; 
   width: 100vw;  
-  margin-top: -122px;
+  margin-top: -20px;
  
 }
 /* CONTENIDO */
 #autor {
   padding: 20px;
   text-align: justify;
-  background-color: #D8E4D6;
-  border-radius: 0px;
 }
 .sub-autor {
   background-color: #FF522A; /* Fondo de color amarillo */
   color: #000000; /* Color del texto */
   padding: 0.5em; /* Espaciado interno */
   margin-left: 20px;
+  border-radius: 30px;
 }
 
-.p-a {
+.aut-p1 {
   width: 50%;
   margin-left: 20px;
+  background-color: #958AAA;
+  border-radius: 30px;
+  padding: 2em; 
 }
 
 #frederic-img {
   width: 35%;
   float: right;
-  margin-right: 50px;
+  margin-right: 70px;
   margin-top: -280px;
+  border-radius: 30px;
 }
 
 
@@ -121,7 +121,7 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   justify-content: center;
   height: 100vh; 
   width: 100vw; 
-  margin-top: -230px;
+  margin-top: -200px;
 }
 
 /* CONTENIDO */
@@ -129,7 +129,6 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   width: 90%;
   padding: 20px;
   text-align: justify;
-  background-color: #D8E4D6;
   border-radius: 0px;
 }
 
@@ -138,12 +137,13 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   color: #000000; /* Color del texto */
   padding: 0.5em; /* Espaciado interno */
   margin-left: 20px;
+  border-radius: 30px;
 }
 
 .parrafos-container {
   display: flex;
   justify-content: space-between;
-  margin-left: -20px;
+  
 }
 
 .p1, .p2 {
@@ -155,75 +155,119 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 
 .p1 {
   margin-left: 20px;
+  background-color: #D8E4D6;
+  padding: 2em; 
+  border-radius: 30px;
+  width: 60%
 }
 
 .p2{
-  margin-right: 20pz;
+  margin-right: 20px;
+  background-color: #D8E4D6;
+  padding: 2em; 
+  margin-left: 60px;
+  border-radius: 30px;
+  width: 60%
 }
+
+.pro-gif {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    width: 100vw;  
+    position: relative; /* Posicionamiento relativo para los elementos hijos */
+    background-image: url("gif/pro-gif.gif"); 
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    background-position: center; /* Centra el fondo */
+    background-repeat: no-repeat; /* Evita que se repita */
+}
+
+/* SECCION : DIAGRAMA */
+
+/* FONDO */
+.dia-base {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 200vh; 
+    width: 100vw;  
+    background-color: #0000; 
+}
+/* CONTENIDO */
+.dia-img {
+    max-width: 80%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-height: 80%; /* Asegura que la imagen no exceda la altura del contenedor */
+    object-fit: contain; /* Mantiene las proporciones de la imagen */
+    margin-left: 70px;
+
+}
+
+
 
 
  /* SECCION : LEV MANOVICH */
 
  /* FONDO */
 .pri-base {
-  display: flex;
-  align-items: flex-start; 
-  height: auto; 
-  width: 100vw;  
-  color: #D8E4D6;
+   display: flex;
+   align-items: center; 
+   height: 100vh; 
+   width: 100vw;  
+   background-color: #0000; 
+   color: #000000;
+   margin-top: -150px;
 }
 /* CONTENIDO */
 #principios {
-  width: 100%;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-top: -70px;
+  text-align: justify;
+  width: 80%;
+  margin-top: 200px;
 }
 
 .sub-lev {
+  background-color: #FF522A; /* Fondo de color amarillo */
+  color: #000000; /* Color del texto */
+  padding: 0.5em; /* Espaciado interno */
   margin-left: 20px;
+  border-radius: 30px;
  
-}
-
-.columnas {
-  gap: 20px;
-
-}
-
-.p1-container   {
-  flex-basis: 0%;
-  text-align: justify;
-  max-width: 70%;
-  flex-grow: 1;
-   /* NO HE PODIDO ALINEAR ESTE PARRAFO*/
-}
-
-.p2-container {
-  flex-basis: 0%;
-  text-align: justify;
-  max-width: 70%;
-  flex-grow: 1;
-  
 }
 
 .img-right {
   width: 480px;
   height: auto;
-  margin-top: -380px;
-  margin-left: 680px;
+  margin-top: -450px;
+  margin-left: 740px;
   display: flex;
+  border-radius: 30px;
 
 }
 
-.p3-container {
-  flex-basis: 0%;
-  text-align: justify;
-  max-width: 70%;
-  flex-grow: 1;
-  
+#pri-p1 {
+  background-color: #958AAA;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+  width: 60%
 }
 
+#pri-p2 {
+  background-color: #D8E4D6;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+  width: 60%
+}
+
+#pri-p3 {
+  background-color: #8E8101;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+  width: 60%
+}
 
 
 /* SECCION : COMPARATIVA GENERO TERROR */
@@ -232,17 +276,110 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
 .ter-base {
   display: flex;
   align-items: center; 
-  height: 100vh; 
-  width: 100vw;  
-  background-color: #FF522A; 
+  height: 180vh; 
+  width: 100vw; 
 }
+
+/* FONDO */
+.ter-base2 {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw; 
+}
+
+
 /* CONTENIDO */
 #terror {
   padding: 20px;
   text-align: justify;
-  width: 50%;
+  width: 80%;
   margin-top: 200px;
 }
+
+.sub-terror {
+  background-color: #FF522A; 
+  color: #000000; 
+  padding: 0.5em; 
+  margin-left: 20px;
+  border-radius: 30px;}
+
+#ter-p1 {
+  background-color: #958AAA;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+/* FONDO */
+.ter-base2 {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw; 
+}
+
+#ter-p2 {
+  background-color: #D8E4D6;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+#ter-p3 {
+  background-color: #D8E4D6;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+#ter-p4 {
+  background-color: #D8E4D6;
+  padding: 2em; 
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+/* FONDO */
+.ter-base3 {
+  display: flex;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw; 
+}
+
+.ter-gen-gif {
+  max-width: 98%; /* Limita el ancho de la imagen a la mitad del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-left: 20px; /* Espacio entre el párrafo y la imagen */
+  border-radius: 30px;
+}
+
+.ter-invasion-gif {
+  max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-left: 20px; /* Espacio entre el párrafo y la imagen */
+  border-radius: 30px;
+}
+
+.ter-birds-gif {
+  max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 30px;
+}
+
+.ter-bruja-gif {
+    max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 30px;
+}
+
+.ter-resplandor-gif {
+    max-width: 20%; /* Limita el ancho de la imagen a la mitad del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 30px;
+}
+
 
 /* SECCION : CONCLUSIÓN */
 
@@ -252,16 +389,17 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   align-items: center; 
   height: 100vh; 
   width: 100vw;  
-  background-color: #8E8101;
+  background-color: #D8E4D6;
 }
 /* CONTENIDO */
 #conclusion {
+  margin-left: 20px;
   padding: 20px;
   text-align: justify;
-  width: 50%
+  width: 50%;
 }
 
-/* SECCION : XXXX */
+/* SECCION : BIBLIOGRAFÍA */
 
 /* FONDO */
 .bib-base {
@@ -269,13 +407,13 @@ pd: si es necesario explicar que es algo que se añade dejar mensajes así!!!!
   align-items: center; 
   height: 100vh; 
   width: 100vw;  
-  background-color: #FF522A; 
+  background-color: #000000;
+  color: #D8E4D6; 
 }
 /* CONTENIDO */
 #bibliografia {
   padding: 20px;
-  text-align: justify;
-  width: 50%
+  width: 100%
 }
 
 
@@ -324,8 +462,8 @@ section {
 }
 
 footer {
-  background-color: #000000;
-  color: #D8E4D6;
+  background-color: #D8E4D6;
+  color: #000000;
   text-align: center;
   padding: 10px;
   position: relative;
